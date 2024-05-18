@@ -1,0 +1,73 @@
+body {
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: violet;
+    padding: 20px;
+    text-align: center;
+    font-size: 27px;
+}
+h1 {
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.image-gallery img {
+    height:340px ;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.message-box {
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.caja {
+    text-align: center;
+}
+
+.box-caja {
+    
+    display: inline-flexbox;
+}
+
+.box {
+    border: 2px solid plum;
+    display: inline-flexbox;
+    text-align: center ;
+    margin: 20px;
+}
+
+.box h2 {
+    text-align: center;
+    border: 2px solid plum;
+    margin-top: 0;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid plum;
+    border-radius: 5px;
+    margin-top: 10px;
+}
